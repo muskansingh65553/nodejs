@@ -7,10 +7,10 @@ const app = express();
 
 // MySQL database connection pool
 const pool = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'rent',
+  host: 'srv1113.hstgr.io',
+  user: 'u217416030_rent',
+  password: 'Kashyap18@',
+  database: 'u217416030_rent',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
