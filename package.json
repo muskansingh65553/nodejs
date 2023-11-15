@@ -14,5 +14,11 @@
     "express": "^4.18.2",
     "mongodb": "^6.2.0",
     "mysql2": "^3.6.3"
+  },
+  "devDependencies": {
+    "purgecss": "^5.0.0"
+  }, "scripts": {
+    "purgecss": "purgecss --config purgecss.config.js --output ./public/css/"
   }
+  
 }
