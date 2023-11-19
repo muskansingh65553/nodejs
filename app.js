@@ -22,12 +22,7 @@ app.set('view engine', 'ejs');
 
 // Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, 'public')));
-
-// Index page route
-// app.js
-
-// ... (existing code)
-
+ 
 // Index page route
 app.get('/', async (req, res) => {
     try {
@@ -74,8 +69,7 @@ app.get('/', async (req, res) => {
     }
   });
   
-  // ... (existing code)
-  
+ 
 
 // City page route with cleaner URL
 // City page route with cleaner URL
